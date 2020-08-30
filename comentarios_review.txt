@@ -1,0 +1,2 @@
+Los colores la tipografía y las imágenes todos me parecieron muy simple sin compactos en el buen sentido. Fue una buena idea hacer distintos HTML en vez de hacer una única página 
+Debe tener cuidado con los tags que está dejando abiertos con poner los atributos del lenguaje no repetir id’s y utilizar el archivo css para incluir algunos de los estilos que está incluyen innecesariamente en HTML.
