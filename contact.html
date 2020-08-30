@@ -31,18 +31,20 @@
 <body>
     <div class="nav">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Luis Miguel Gómez Londoño</a>
+            <!-- Review -Es recomendable que este enlace redireccione a la pagina inicial-->
+            <a class="navbar-brand" href="./index.html">Luis Miguel Gómez Londoño</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!-- Review -Debe verse como activo la sección actual-->
                 <div class="navbar-nav">
-                    <a class="nav-link active" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="./bio.html">Bio</a>
                     <a class="nav-link" href="./academical.html">Academical</a>
                     <a class="nav-link" href="./interests.html">Sites of Interests</a>
-                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link active" href="./contact.html">Contact</a>
                 </div>
             </div>
         </nav>
@@ -89,17 +91,17 @@
                             <input type="submit" name="submit" value="submit"
                                 class="btn btn-primary btn-block rounded-0 py-2">
                         </div>
-
+    
                     </div>
-
+    
                 </div>
             </div>
             <div class="col">
                 <div class="row">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127173.85058487655!2d-75.57291663921809!3d5.074096728582246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e476f9170e6be43%3A0x554ce06678120a7a!2sManizales%2C%20Caldas!5e0!3m2!1sen!2sco!4v1598474924474!5m2!1sen!2sco"
-                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
                 </div>
                 <div class="row">
                     <div class="col">
@@ -111,48 +113,54 @@
                 </div>
             </div>
         </div>
-        <hr>
-        <br>
-
-        <footer>
-            <div class="footer bg-dark text-white" id="footer">
-                <div class="container">
-                    <br/>
-                    <div class="row">
-                        <div class="col">
-                            <h4> Luis Miguel Gomez Londoño </h4>
-                        </div>
-                        <div class="col">
-                            <h3> Contact </h3>
-                            <ul>
-                                <li><a class="email" href="mailto:lm.gomezl@uniandes.edu.co"> lm.gomezl@uniandes.edu.co </a></li>
-                                <li><a class="email" href="mailto:luismigolondo@gmail.com"> luismigolondo@gmail.com </a></li>
-                                <br />
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul style="text-decoration: none;">
-                                <li>
-                                    <h5> <a href="./bio.html" style="margin-top: 5em"> Bio </a>
-                                        <h5>
-                                </li>
-                                <li>
-                                    <h5><a href="./academical.html"> Academical </a>
-                                        <h5>
-                                </li>
-                                <li>
-                                    <h5><a href="./interests.html"> Interests </a>
-                                        <h5>
-                                </li>
-                                <li>
-                                    <h5><a href="./contact.html"> Contact </a>
-                                        <h5>
-                                </li>
-                            </ul>
-                        </div>
+    <!-- Review -Faltaba una etiqueta de cierre de div-->
+    </div>
+    <hr>
+    <br>
+    
+    <footer>
+        <div class="footer bg-dark text-white" id="footer">
+            <div class="container">
+                <br />
+                <div class="row">
+                    <div class="col">
+                        <h4> Luis Miguel Gomez Londoño </h4>
+                    </div>
+                    <div class="col">
+                        <h3> Contact </h3>
+                        <ul>
+                            <li><a class="email" href="mailto:lm.gomezl@uniandes.edu.co"> lm.gomezl@uniandes.edu.co </a>
+                            </li>
+                            <li><a class="email" href="mailto:luismigolondo@gmail.com"> luismigolondo@gmail.com </a></li>
+                            <!-- Review -br no se usa dentro de un ul-->
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul style="text-decoration: none;">
+                            <!-- Review -No se habían cerrado correctamente las etiquetas h5-->
+                            <li>
+                                <h5> <a href="./bio.html" style="margin-top: 5em"> Bio </a>
+                                </h5>
+                            </li>
+                            <li>
+                                <h5><a href="./academical.html"> Academical </a>
+                                </h5>
+                            </li>
+                            <li>
+                                <h5><a href="./interests.html"> Interests </a>
+                                </h5>
+                            </li>
+                            <li>
+                                <h5><a href="./contact.html"> Contact </a>
+                                </h5>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-        </footer>
+            </div>
+            <!-- Review -Faltaba una etiqueta de cierre de div-->
+        </div>
+    </footer>
 
 </body>
 
